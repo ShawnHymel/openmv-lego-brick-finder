@@ -11,8 +11,8 @@ You will need the following packages (install via pip):
  * Pillow
 
 Example call:
-python divide_images.py -i "../../Python/datasets/lego/raw/background"
-    -o "../../Python/datasets/lego/edited/background" -n "background" 
+python divide_images.py -i "../../../Python/datasets/lego/raw/background"
+    -o "../../../Python/datasets/lego/edited/background" -n "background" 
     -w 32 -t 32 -l 10
 
 The MIT License (MIT)

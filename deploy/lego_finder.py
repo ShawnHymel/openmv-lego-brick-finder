@@ -142,7 +142,7 @@ while(True):
         timestamp = time.ticks()
 
     # Scale image and display on LCD
-    lcd.display(img.mean_pool(2, 2))
+    #lcd.display(img.mean_pool(2, 2))
 
     # Display info to terminal
     #print("FPS:", clock.fps())
