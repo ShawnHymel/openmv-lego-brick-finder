@@ -1,7 +1,7 @@
 OpenMV Lego Brick Finder
 ===
 
-This project is a demonstration on how to use [OpenMV](https://openmv.io/) and [Edge Impulse](https://www.edgeimpulse.com/) to create an object detection machine learning application that identifies the location of a given Lego piece in an image. Machine learning on microcontrollers (TinyML) is a growing field that enables new types of machine vision, classification, and decision making programs to be deployed to embedded systems.
+This project is a demonstration on how to use [OpenMV](https://openmv.io/) and [Edge Impulse](https://www.edgeimpulse.com/) to create an object detection application that identifies the location of a given Lego piece in an image. Machine learning on microcontrollers (TinyML) is a growing field that enables new types of machine vision, classification, and decision making programs to be deployed to embedded systems.
 
 The full article that explains how to use the code contained in this repository can be found here: [LEGO Brick Finder with OpenMV and Edge Impulse](https://www.digikey.com/en/maker/projects/lego-brick-finder-with-openmv-and-edge-impulse/1411a4242d884158ae8f656d5b9b0d53).
 
@@ -43,9 +43,9 @@ Upload the jpeg images to Edge Impulse and train a neural network to classify ta
 
 Download the trained TensorFlow Lite model file (.tflite). Copy it and *labels.txt* to the root drive of the OpenMV camera.
 
-Copy the code from [deploy/lego_finder.py](https://github.com/ShawnHymel/openmv-lego-brick-finder/blob/master/deploy/lego_finder.py) to a new project in the OpenMV IDE. Upload code to the OpenMV camera module.
+Copy the code from [deploy/lego_finder.py](https://github.com/ShawnHymel/openmv-lego-brick-finder/blob/master/deploy/lego_finder.py) to a new project in the OpenMV IDE. Upload the code to the OpenMV camera module.
 
-Press the button on the breadboard to snap a photo. About 10 seconds later (if using the regular OpenMV H7 module), a photo should appear on the LCD with the supposed target pieces highlighted by white squares.
+Press the button on the breadboard to snap a photo. After about 10 seconds (if using the regular OpenMV H7 module), a photo should appear on the LCD with the supposed target pieces highlighted by white squares.
 
 ![Identifying target Lego pieces in a pile with OpenMV](https://raw.githubusercontent.com/ShawnHymel/openmv-lego-brick-finder/master/images/lego-brick-finder.jpg)
 
