@@ -5,7 +5,7 @@ This project is a demonstration on how to use [OpenMV](https://openmv.io/) and [
 
 The full article that explains how to use the code contained in this repository can be found here: [LEGO Brick Finder with OpenMV and Edge Impulse](https://www.digikey.com/en/maker/projects/lego-brick-finder-with-openmv-and-edge-impulse/1411a4242d884158ae8f656d5b9b0d53).
 
-Here is a video that demonstrates this project in action: %%%TODO: add YouTube link
+Here is a video that demonstrates this project in action: [https://www.youtube.com/watch?v=6wIswIpSw04](https://www.youtube.com/watch?v=6wIswIpSw04)
 
 Required Hardware
 ---
